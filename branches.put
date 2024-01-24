@@ -1,0 +1,5 @@
+public GitRepository() {
+        branches = new HashMap<>();
+        branches.put("master", new String[]{});
+        currentBranch = "master";
+    }
